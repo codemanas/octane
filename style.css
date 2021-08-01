@@ -39,14 +39,6 @@ Layout
     }
 }
 
-/*
-Layout
- */
-.block-editor-block-list__layout .wp-block, .wp-block-post-content {
-    clear: both;
-    overflow: hidden;
-}
-
 /*--------------------------------------------------------------
 # Image
 --------------------------------------------------------------*/
