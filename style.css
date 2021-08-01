@@ -39,6 +39,11 @@ Layout
     }
 }
 
+ .wp-block-post-comments {
+     clear:both;
+     overflow:hidden;
+ }
+
 /*--------------------------------------------------------------
 # Image
 --------------------------------------------------------------*/
@@ -143,6 +148,7 @@ a:hover {
 .comment-list li > .comment-body,
 .commentlist li > .comment-body {
     margin-bottom: 2em;
+    margin-left: 2em;
 }
 
 .comment-author .avatar {
