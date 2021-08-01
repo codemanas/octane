@@ -571,7 +571,6 @@ input[type="color"]:focus,
 textarea:focus,
 select:focus {
     background-color: var(--wp--preset--color--mystic);
-    outline: 1px dotted var(--wp--preset--color--jumbo);
 }
 
 input[type="submit"] {
