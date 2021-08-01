@@ -1,8 +1,6 @@
 <?php
 /**
  * Without this file, WordPress will consider the theme broken.
- *
- * @package tt1-blocks
  */
 
 if ( current_user_can( 'activate_plugins' ) ) {
