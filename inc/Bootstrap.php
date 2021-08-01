@@ -96,7 +96,7 @@ class Bootstrap {
 	}
 
 	public function enqueue_style() {
-		wp_enqueue_style( '' );
+		wp_enqueue_style( 'octane-style' );
 	}
 
 	// Replaces the excerpt "Read More" text by a link
