@@ -395,6 +395,14 @@ Layout
     }
 }
 
+/*
+Layout
+ */
+.block-editor-block-list__layout .wp-block, .wp-block-post-content {
+    clear: both;
+    overflow: hidden;
+}
+
 /*--------------------------------------------------------------
 # Image
 --------------------------------------------------------------*/
@@ -402,10 +410,6 @@ Layout
 .wp-block-image img {
     height: auto;
 }
-
-/**
-Header
- */
 
 /**
 Site Title
@@ -452,10 +456,7 @@ a:hover {
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
-.wp-block-button.alignright{
-    text-align: right;
-    float: none!important;
-}
+
 .wp-block-post-comments .no-comments,
 .wp-block-post-comments .nocomments {
     display: none;

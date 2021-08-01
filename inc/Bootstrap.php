@@ -112,7 +112,7 @@ class Bootstrap {
 
 	public function set_post_thumbnail_fallback( $html ) {
 		if ( $html == '' ) {
-			$html = '<img src="' . esc_url( get_template_directory_uri() . '/assets/images/placeholder.jpg' . '" width="400px" height="400px">' );
+			$html = '<img src="' . esc_url( get_template_directory_uri() . '/assets/images/placeholder.jpg').'" width="400px">';
 		}
 
 		return $html;
