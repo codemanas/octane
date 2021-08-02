@@ -1,4 +1,4 @@
-## octane WordPress FSE theme
+## Octane WordPress FSE theme
 
 Welcome to the Octane theme for WordPress on GitHub. Here you can browse the source, and keep track of development. 
 
