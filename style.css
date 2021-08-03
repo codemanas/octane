@@ -451,6 +451,15 @@ a:hover {
 # Forms
 --------------------------------------------------------------*/
 
+.wp-block-search .wp-block-search__button{
+    background: var(--wp--preset--color--cinnabar);
+}
+
+/* Default Search Form */
+.wp-block-search .wp-block-search__button svg{
+    fill: #fff;
+}
+
 .wp-block-post-comments .no-comments,
 .wp-block-post-comments .nocomments {
     display: none;
