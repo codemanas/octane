@@ -453,6 +453,7 @@ a:hover {
 
 .wp-block-search .wp-block-search__button{
     background: var(--wp--preset--color--cinnabar);
+    color: var(--wp--preset--color--white);
 }
 
 /* Default Search Form */
