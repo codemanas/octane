@@ -20,8 +20,7 @@ class Bootstrap {
 		add_action( 'wp_enqueue_scripts', [ $this, 'enqueue_style' ] );
 		
 		//Excerpt Mods
-		add_filter( 'excerpt_more', [ $this, 'read_more_link' ] );
-		add_filter( 'excerpt_length', [ $this, 'set_excerpt_lenght' ] );
+		add_filter( 'excerpt_length', [ $this, 'set_excerpt_length' ] );
 		
 		//Display fallback image in case - post does not have featured image
 		add_filter( 'post_thumbnail_html', [ $this, 'set_post_thumbnail_fallback' ] );
@@ -99,14 +98,7 @@ class Bootstrap {
 		wp_enqueue_style( 'octane-style' );
 	}
 
-	// Replaces the excerpt "Read More" text by a link
-	public function read_more_link( $more ) {
-		global $post;
-
-		return '&nbsp;&nbsp;<a class="moretag" href="' . esc_url( get_permalink( $post->ID ) ) . '"> ' . __( '...Read More', 'octane' ) . ' </a>';
-	}
-
-	public function set_excerpt_lenght( $length ) {
+	public function set_excerpt_length( $length ) {
 		return 100;
 	}
 
