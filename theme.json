@@ -168,7 +168,7 @@
           "fontSize": "var(--wp--preset--font-size--huge)"
         },
         "color": {
-          "text": "var(--wp--preset--color--black)"
+          "text": "var(--wp--preset--color--cinnabar)"
         }
       },
       "h2": {
@@ -176,7 +176,7 @@
           "fontSize": "calc(var(--wp--preset--font-size--medium) * 1.375)"
         },
         "color": {
-          "text": "var(--wp--preset--color--black)"
+          "text": "var(--wp--preset--color--cinnabar)"
         }
       },
       "h3": {
@@ -184,7 +184,7 @@
           "fontSize": "calc(var(--wp--preset--font-size--medium) * 1.25)"
         },
         "color": {
-          "text": "var(--wp--preset--color--black)"
+          "text": "var(--wp--preset--color--cinnabar)"
         }
       },
       "h4": {
@@ -192,7 +192,7 @@
           "fontSize": "calc(var(--wp--preset--font-size--medium) * 1.125)"
         },
         "color": {
-          "text": "var(--wp--preset--color--black)"
+          "text": "var(--wp--preset--color--cinnabar)"
         }
       },
       "h5": {
@@ -208,7 +208,7 @@
           "fontSize": "calc(var(--wp--preset--font-size--medium) * 0.875)"
         },
         "color": {
-          "text": "var(--wp--preset--color--black)"
+          "text": "var(--wp--preset--color--cinnabar)"
         }
       }
     },
