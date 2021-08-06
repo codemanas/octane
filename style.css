@@ -608,3 +608,16 @@ input[type="submit"]:hover {
     font-size: 1em;
     border-radius: 6px;
 }
+
+/**
+Typography and Headings
+ */
+.is-style-heading-underlined{
+    border-bottom: 1px solid;
+}
+.is-style-heading-dashed{
+    border-bottom: 1px dashed;
+}
+.is-style-heading-dotted{
+    border-bottom: 1px dotted;
+}

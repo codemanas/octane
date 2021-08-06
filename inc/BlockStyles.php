@@ -22,6 +22,38 @@ class BlockStyles {
 				'is_default' => false,
 			]
 		);
+		
+		$this->register_heading_styles();
+		
+	}
+
+	public function register_heading_styles(  ) {
+		register_block_style(
+			'core/heading',
+			[
+				'name'       => 'heading-underlined',
+				'label'      => __( 'Heading - Underlined', 'octane' ),
+				'is_default' => false,
+			]
+		);
+
+		register_block_style(
+			'core/heading',
+			[
+				'name'       => 'heading-dashed',
+				'label'      => __( 'Heading - Dashed', 'octane' ),
+				'is_default' => false,
+			]
+		);
+
+		register_block_style(
+			'core/heading',
+			[
+				'name'       => 'heading-dotted',
+				'label'      => __( 'Heading - Dotted', 'octane' ),
+				'is_default' => false,
+			]
+		);
 	}
 
 }

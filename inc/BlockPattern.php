@@ -42,6 +42,16 @@ class BlockPattern {
 				'categories'  => [ 'codemanas-octane' ]
 			)
 		);
+
+		register_block_pattern(
+			'codemanas-octane/cta',
+			array(
+				'title'       => __( 'Call To Action', 'octane' ),
+				'description' => _x( 'Call To Action.', 'Block pattern description', 'octane' ),
+				'content'     => $this->get_pattern_part('cta.php'),
+				'categories'  => [ 'codemanas-octane' ]
+			)
+		);
 	}
 
 	public function register_pattern_categories() {
@@ -50,4 +60,5 @@ class BlockPattern {
 			[ 'label' => __( 'Codemanas', 'octane' ) ]
 		);
 	}
+	
 }
