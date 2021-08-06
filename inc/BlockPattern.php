@@ -12,6 +12,7 @@ class BlockPattern {
 
 	public function __construct() {
 		$this->directory = get_theme_file_path();
+		$this->register_pattern_categories();
 		add_action( 'init', [ $this, 'register_patterns' ] );
 	}
 
@@ -32,10 +33,6 @@ class BlockPattern {
 	}
 
 	public function register_patterns() {
-		register_block_pattern_category(
-			'codemanas-octane',
-			[ 'label' => __( 'Codemanas', 'octane' ) ]
-		);
 		
 //		var_dump($this->get_pattern_part('pricing-table.html')); die;
 		
@@ -47,6 +44,13 @@ class BlockPattern {
 				'content'     => $this->get_pattern_part('pricing-table.html'),
 				'categories'  => [ 'codemanas-octane' ]
 			)
+		);
+	}
+
+	public function register_pattern_categories() {
+		register_block_pattern_category(
+			'codemanas-octane',
+			[ 'label' => __( 'Codemanas', 'octane' ) ]
 		);
 	}
 }
