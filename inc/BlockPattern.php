@@ -33,9 +33,6 @@ class BlockPattern {
 	}
 
 	public function register_patterns() {
-		
-//		var_dump($this->get_pattern_part('pricing-table.html')); die;
-		
 		register_block_pattern(
 			'codemanas-octane/pricing-table',
 			array(
