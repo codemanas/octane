@@ -377,10 +377,6 @@ iframe {
     max-width: 100%;
 }
 
-.column-margin-none .wp-block-columns:not(.is-not-stacked-on-mobile) > .wp-block-column:not(:first-child) {
-    margin: 0;
-}
-
 .wp-block-columns.is-style-no-space-between:not(.is-not-stacked-on-mobile) > .wp-block-column:not(:first-child) {
     margin: 0;
 }
