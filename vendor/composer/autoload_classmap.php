@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Codemanas\\Themes\\Octane\\BlockPattern' => $baseDir . '/inc/BlockPattern.php',
+    'Codemanas\\Themes\\Octane\\BlockStyles' => $baseDir . '/inc/BlockStyles.php',
     'Codemanas\\Themes\\Octane\\Bootstrap' => $baseDir . '/inc/Bootstrap.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
 );

@@ -22,6 +22,7 @@ class ComposerStaticInitd3ffb0c8ae62f03fbbab2ad4b5d82d01
 
     public static $classMap = array (
         'Codemanas\\Themes\\Octane\\BlockPattern' => __DIR__ . '/../..' . '/inc/BlockPattern.php',
+        'Codemanas\\Themes\\Octane\\BlockStyles' => __DIR__ . '/../..' . '/inc/BlockStyles.php',
         'Codemanas\\Themes\\Octane\\Bootstrap' => __DIR__ . '/../..' . '/inc/Bootstrap.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );

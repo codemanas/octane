@@ -32,6 +32,7 @@ class Bootstrap {
 
 	public function load_modules() {
 		BlockPattern::get_instance();
+		BlockStyles::get_instance();
 	}
 
 	public function theme_setup() {
