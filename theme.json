@@ -11,6 +11,12 @@
     }
   ],
   "settings": {
+    "border": {
+      "customColor": true,
+      "customRadius": true,
+      "customStyle": true,
+      "customWidth": true
+    },
     "color": {
       "custom": true,
       "customDuotone": true,
@@ -139,17 +145,6 @@
           "slug": "merriweather"
         }
       ]
-    },
-    "blocks": {
-      "core/paragraph": {
-        "color": {},
-        "custom": {},
-        "layout": {},
-        "spacing": {},
-        "typography": {}
-      },
-      "core/heading": {},
-      "etc": {}
     }
   },
   "styles": {

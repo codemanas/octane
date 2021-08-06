@@ -27,6 +27,11 @@ class Bootstrap {
 
 		//Display fallback image in case - post does not have featured image
 		add_filter( 'post_thumbnail_html', [ $this, 'set_post_thumbnail_fallback' ] );
+		$this->load_modules();
+	}
+
+	public function load_modules() {
+		BlockPattern::get_instance();
 	}
 
 	public function theme_setup() {

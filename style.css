@@ -377,6 +377,15 @@ iframe {
     max-width: 100%;
 }
 
+.column-margin-none .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column:not(:first-child){
+    margin:0;
+}
+
+/* Header  */
+.wp-site-blocks .site-header {
+    padding: 0;
+}
+
 @media screen and (max-width: 968px) {
     .wp-site-blocks > * {
         padding: 1.25em;
@@ -451,13 +460,13 @@ a:hover {
 # Forms
 --------------------------------------------------------------*/
 
-.wp-block-search .wp-block-search__button{
+.wp-block-search .wp-block-search__button {
     background: var(--wp--preset--color--cinnabar);
     color: var(--wp--preset--color--white);
 }
 
 /* Default Search Form */
-.wp-block-search .wp-block-search__button svg{
+.wp-block-search .wp-block-search__button svg {
     fill: #fff;
 }
 
