@@ -44,6 +44,8 @@ class Bootstrap {
 
 		// Add default posts and comments RSS feed links to head.
 		add_theme_support( 'automatic-feed-links' );
+		//Add title tag support for PHP / hybrid based theme or if content is being rendered from plugins
+		add_theme_support( 'title-tag' );
 
 		/*
 		 * Enable support for Post Thumbnails on posts and pages.
@@ -115,7 +117,7 @@ class Bootstrap {
 	}
 
 	public function set_post_thumbnail_fallback( $html ) {
-		if ( $html == '' ) {
+		if ( $html == '' && !is_singular() ) {
 			$html = '<img src="' . esc_url( get_template_directory_uri() . '/assets/images/placeholder.jpg' ) . '" width="400px">';
 		}
 

@@ -369,6 +369,9 @@ template {
 /**
 Layout
  */
+* {
+    box-sizing: border-box;
+}
 .wp-block-social-links {
     margin: 0;
 }
