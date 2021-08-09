@@ -10,6 +10,12 @@
       "area": "footer"
     }
   ],
+  "customTemplates": [
+    {
+      "name": "blank-canvas",
+      "title": "Blank Canvas - good for flash pages - without header footer - paint what you want"
+    }
+  ],
   "settings": {
     "border": {
       "customColor": true,
