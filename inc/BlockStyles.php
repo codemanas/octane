@@ -11,23 +11,25 @@ class BlockStyles {
 
 	public function __construct() {
 		$this->register_styles();
+		add_filter( 'render_block', [ $this, 'fancy_image_border' ], 10, 2 );
 	}
 
 	private function register_styles() {
+		$this->register_column_styles();
+		$this->register_heading_styles();
+
+		//image
 		register_block_style(
-			'core/columns',
+			'core/image',
 			[
-				'name'       => 'no-space-between',
-				'label'      => __( 'No Space Between', 'octane' ),
-				'is_default' => false,
+				'name'       => 'highlighted-frame',
+				'label'      => 'Highlighted Frame',
+				'is_default' => false
 			]
 		);
-		
-		$this->register_heading_styles();
-		
 	}
 
-	public function register_heading_styles(  ) {
+	public function register_heading_styles() {
 		register_block_style(
 			'core/heading',
 			[
@@ -54,6 +56,45 @@ class BlockStyles {
 				'is_default' => false,
 			]
 		);
+	}
+
+	public function register_column_styles() {
+		register_block_style(
+			'core/columns',
+			[
+				'name'       => 'no-space-between',
+				'label'      => __( 'No Space Between', 'octane' ),
+				'is_default' => false,
+			]
+		);
+
+		register_block_style(
+			'core/columns',
+			[
+				'name'       => 'column-with-shadow',
+				'label'      => __( 'Column with Shadow', 'octane' ),
+				'is_default' => false,
+			]
+		);
+
+		register_block_style(
+			'core/column',
+			[
+				'name'       => 'column-with-shadow',
+				'label'      => __( 'Column with Shadow', 'octane' ),
+				'is_default' => false,
+			]
+		);
+	}
+
+	public function fancy_image_border( $block_content, $block ) {
+		if ( 'core/image' === $block['blockName'] ) {
+			if ( strpos( $block['attrs']['className'], 'is-style-highlighted-frame' ) !== false ) {
+				$block_content = str_replace( '</figure>', '<span class="border"></span><span class="border"></span><span class="border"></span></figure>', $block_content );
+			}
+		}
+
+		return $block_content;
 	}
 
 }
