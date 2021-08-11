@@ -670,7 +670,7 @@ figure.is-style-highlighted-frame span.border:nth-of-type(1)
 }
 
 .is-style-highlighted-frame figure span.border:nth-of-type(2),
-figure.is-style-highlighted-frame span.border span.border:nth-of-type(2){
+figure.is-style-highlighted-frame  span.border:nth-of-type(2){
     clip-path: polygon(20% 88%, 81% 89%, 80% 100%, 20% 100%);
 }
 
