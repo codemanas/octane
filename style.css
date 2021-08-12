@@ -381,6 +381,7 @@ iframe {
     max-width: 100%;
 }
 
+.wp-block-columns.is-style-no-space-between,
 .wp-block-columns.is-style-no-space-between:not(.is-not-stacked-on-mobile) > .wp-block-column:not(:first-child) {
     margin: 0;
 }
@@ -649,7 +650,7 @@ Typography and Headings
 figure.is-style-highlighted-frame {
     display: inline-block;
     position: relative;
-    margin: 15%;
+    /*margin: 15%;*/
 }
 
 .is-style-highlighted-frame figure:before,
@@ -661,7 +662,7 @@ figure.is-style-highlighted-frame:before
     top: 0;
     left: 0;
     z-index: 1;
-    border: 18px solid #e60023;
+    border: 18px solid var(--wp--preset--color--cinnabar);
     border-right: 18px solid transparent;
     border-left: 18px solid transparent;
     width: calc(100% - 18px);
@@ -678,8 +679,8 @@ figure.is-style-highlighted-frame:after {
     left: 0;
     z-index: -1;
     border: 18px solid green;
-    border-right: 18px #e60023 solid;
-    border-left: 18px #e60023 solid;
+    border-right: 18px var(--wp--preset--color--cinnabar) solid;
+    border-left: 18px var(--wp--preset--color--cinnabar) solid;
     width: calc(100% - 18px);
     height: calc(100% - 18px);
     transform: rotate(45deg);
