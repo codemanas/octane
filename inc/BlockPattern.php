@@ -52,6 +52,46 @@ class BlockPattern {
 				'categories'  => [ 'codemanas-octane' ]
 			)
 		);
+		
+		register_block_pattern(
+			'codemanas-octane/testimonials',
+			[
+				'title' => __('Testimonials - Rounded Design','octane'),
+				'descriptions' => _x('Testimonials Section','Block Pattern description','octane'),
+				'content' => $this->get_pattern_part('testimonials.php'),
+				'categories' => ['codemanas-octane']
+			]
+		);
+		
+		register_block_pattern(
+			'codemanas-octane/testimonials-design-1',
+			[
+				'title' => __('Testimonials - Bordered Design','octane'),
+				'descriptions' => _x('Bordered Testimonials Section','Block Pattern description','octane'),
+				'content' => $this->get_pattern_part('testimonials-design-1.php'),
+				'categories' => ['codemanas-octane']
+			]
+		);
+
+		register_block_pattern(
+			'codemanas-octane/bordered-image-with-text',
+			[
+				'title' => __('Border Image & Text Columns','octane'),
+				'descriptions' => _x('Bordered Image & Text','Block Pattern description','octane'),
+				'content' => $this->get_pattern_part('bordered-image-with-text.php'),
+				'categories' => ['codemanas-octane']
+			]
+		);
+		
+		register_block_pattern(
+			'codemanas-octane/two-columns-full-width-background',
+			[
+				'title' => __('Two Columns with full width background '),
+				'descriptions' => _x('Two Columns with full width background','Block Pattern description','octane'),
+				'content' => $this->get_pattern_part('two-columns-with-full-width-background.php'),
+				'categories' => ['codemanas-octane']
+			]
+		);
 	}
 
 	public function register_pattern_categories() {

@@ -58,6 +58,11 @@
           "name": "Mystic",
           "slug": "mystic",
           "color": "#EAEFF3"
+        },
+        {
+          "name": "Dull Lavender",
+          "slug": "dull-lavender",
+          "color": "#96AEE6"
         }
       ]
     },

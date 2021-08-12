@@ -664,12 +664,13 @@ figure.is-style-highlighted-frame:before
     top: 0;
     left: 0;
     z-index: 1;
-    border: 18px solid var(--wp--preset--color--cinnabar);
-    border-right: 18px solid transparent;
-    border-left: 18px solid transparent;
-    width: calc(100% - 18px);
-    height: calc(100% - 18px);
+    border: 10px solid var(--wp--preset--color--cinnabar);
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
     transform: rotate(45deg);
+   user-select: none;
 }
 
 .is-style-highlighted-frame figure:after,
@@ -680,10 +681,11 @@ figure.is-style-highlighted-frame:after {
     top: 0;
     left: 0;
     z-index: -1;
-    border: 18px solid green;
-    border-right: 18px var(--wp--preset--color--cinnabar) solid;
-    border-left: 18px var(--wp--preset--color--cinnabar) solid;
-    width: calc(100% - 18px);
-    height: calc(100% - 18px);
+    border: 10px solid var(--wp--preset--color--cinnabar);
+    border-right: 10px var(--wp--preset--color--cinnabar) solid;
+    border-left: 10px var(--wp--preset--color--cinnabar) solid;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
     transform: rotate(45deg);
+    user-select: none;
 }
