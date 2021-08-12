@@ -92,6 +92,16 @@ class BlockPattern {
 				'categories' => ['codemanas-octane']
 			]
 		);
+
+		register_block_pattern(
+			'codemanas-octane/teams',
+			[
+				'title' => __('Teams'),
+				'descriptions' => _x('Team Section','Block Pattern description','octane'),
+				'content' => $this->get_pattern_part('team.php'),
+				'categories' => ['codemanas-octane']
+			]
+		);
 	}
 
 	public function register_pattern_categories() {

@@ -7,7 +7,7 @@ Description: Octane is an experimental block-based theme. It is built to leverag
 Requires at least: 5.6
 Tested up to: 5.8
 Requires PHP: 7.0
-Version: 1.0.7
+Version: 1.0.8
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: octane
@@ -397,6 +397,18 @@ iframe {
 /* Header  */
 .wp-site-blocks .site-header {
     padding: 0;
+}
+
+.wp-site-blocks .site-header .is-style-header-sticky{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top:0;
+}
+@media screen and (min-width: 768px) {
+    body.logged-in .wp-site-blocks .site-header .is-style-header-sticky{
+        top: 32px;
+    }
 }
 
 @media screen and (max-width: 968px) {
