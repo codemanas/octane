@@ -656,8 +656,7 @@ figure.is-style-highlighted-frame {
 }
 
 .is-style-highlighted-frame figure:before,
-figure.is-style-highlighted-frame:before
-{
+figure.is-style-highlighted-frame:before {
     content: "";
     display: block;
     position: absolute;
@@ -670,7 +669,7 @@ figure.is-style-highlighted-frame:before
     width: calc(100% - 10px);
     height: calc(100% - 10px);
     transform: rotate(45deg);
-   user-select: none;
+    user-select: none;
 }
 
 .is-style-highlighted-frame figure:after,
@@ -688,4 +687,13 @@ figure.is-style-highlighted-frame:after {
     height: calc(100% - 10px);
     transform: rotate(45deg);
     user-select: none;
+}
+
+@media screen and (max-width: 768px) {
+    .is-style-highlighted-frame figure:before,
+    figure.is-style-highlighted-frame:before,
+    .is-style-highlighted-frame figure:after,
+    figure.is-style-highlighted-frame:after {
+       border: none;
+    }
 }
