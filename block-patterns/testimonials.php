@@ -1,61 +1,69 @@
-<!-- wp:columns {"className":"is-style-default"} -->
-<div class="wp-block-columns is-style-default"><!-- wp:column {"width":"50%","className":"is-style-column-with-shadow"} -->
-    <div class="wp-block-column is-style-column-with-shadow" style="flex-basis:50%"><!-- wp:columns -->
-        <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":"30%"} -->
-            <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:30%"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->
-                <figure class="wp-block-image size-large is-style-rounded"><img src="<?php echo get_theme_file_uri('/assets/images/testimonial-image.jpg'); ?>" alt=""/></figure>
-                <!-- /wp:image -->
+<!-- wp:columns {"align":"full"} -->
+<div class="wp-block-columns alignfull"><!-- wp:column {"textColor":"white","className":"is-style-default"} -->
+    <div class="wp-block-column is-style-default has-white-color has-text-color"><!-- wp:group {"style":{"spacing":{"padding":{"top":"3em","right":"3em","bottom":"3em","left":"3em"}}},"backgroundColor":"dull-lavender","textColor":"black","className":"octane-testimonials","layout":{"inherit":true}} -->
+        <div class="wp-block-group octane-testimonials has-black-color has-dull-lavender-background-color has-text-color has-background" style="padding-top:3em;padding-right:3em;padding-bottom:3em;padding-left:3em"><!-- wp:heading {"textAlign":"center","textColor":"black","className":"is-style-heading-underlined"} -->
+            <h2 class="has-text-align-center is-style-heading-underlined has-black-color has-text-color">Testimonials</h2>
+            <!-- /wp:heading -->
 
-                <!-- wp:paragraph -->
-                <p></p>
-                <!-- /wp:paragraph --></div>
-            <!-- /wp:column -->
+            <!-- wp:paragraph {"align":"center"} -->
+            <p class="has-text-align-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,<br> luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            <!-- /wp:paragraph -->
 
-            <!-- wp:column -->
-            <div class="wp-block-column"><!-- wp:heading {"className":"is-style-heading-underlined"} -->
-                <h2 class="is-style-heading-underlined">HR - Head</h2>
-                <!-- /wp:heading -->
+            <!-- wp:columns -->
+            <div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"padding":{"top":"0.75em","right":"0.75em","bottom":"0.75em","left":"0.75em"}}},"backgroundColor":"white","textColor":"black","className":"is-style-column-with-shadow"} -->
+                <div class="wp-block-column is-style-column-with-shadow has-black-color has-white-background-color has-text-color has-background" style="padding-top:0.75em;padding-right:0.75em;padding-bottom:0.75em;padding-left:0.75em"><!-- wp:image {"align":"center","width":150,"height":150,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->
+                    <div class="wp-block-image is-style-rounded"><figure class="aligncenter size-large is-resized"><img src="<?php echo get_theme_file_uri(); ?>/assets/images/pexels-creation-hill-1681010-square.jpg" alt="" width="150" height="150"/></figure></div>
+                    <!-- /wp:image -->
 
-                <!-- wp:paragraph -->
-                <p>Acme Industries</p>
-                <!-- /wp:paragraph -->
+                    <!-- wp:heading {"textAlign":"center","level":3} -->
+                    <h3 class="has-text-align-center">Jacob</h3>
+                    <!-- /wp:heading -->
 
-                <!-- wp:paragraph -->
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                <!-- /wp:paragraph --></div>
-            <!-- /wp:column --></div>
-        <!-- /wp:columns --></div>
-    <!-- /wp:column -->
+                    <!-- wp:paragraph {"align":"center"} -->
+                    <p class="has-text-align-center">- CEO, Acme Industries</p>
+                    <!-- /wp:paragraph -->
 
-    <!-- wp:column {"width":"50%","className":"is-style-column-with-shadow"} -->
-    <div class="wp-block-column is-style-column-with-shadow" style="flex-basis:50%"><!-- wp:columns -->
-        <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":"30%"} -->
-            <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:30%"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->
-                <figure class="wp-block-image size-large is-style-rounded"><img src="<?php echo get_theme_file_uri('/assets/images/testimonial-image.jpg'); ?>" alt=""/></figure>
-                <!-- /wp:image -->
+                    <!-- wp:paragraph {"align":"center"} -->
+                    <p class="has-text-align-center"><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo</em></p>
+                    <!-- /wp:paragraph --></div>
+                <!-- /wp:column -->
 
-                <!-- wp:paragraph -->
-                <p></p>
-                <!-- /wp:paragraph --></div>
-            <!-- /wp:column -->
+                <!-- wp:column {"style":{"spacing":{"padding":{"top":"0.75em","right":"0.75em","bottom":"0.75em","left":"0.75em"}}},"backgroundColor":"white","textColor":"black","className":"is-style-column-with-shadow"} -->
+                <div class="wp-block-column is-style-column-with-shadow has-black-color has-white-background-color has-text-color has-background" style="padding-top:0.75em;padding-right:0.75em;padding-bottom:0.75em;padding-left:0.75em"><!-- wp:image {"align":"center","width":150,"height":150,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->
+                    <div class="wp-block-image is-style-rounded"><figure class="aligncenter size-large is-resized"><img src="<?php echo get_theme_file_uri(); ?>/assets/images/pexels-guilherme-almeida-1858175-square.jpg" alt="" width="150" height="150"/></figure></div>
+                    <!-- /wp:image -->
 
-            <!-- wp:column -->
-            <div class="wp-block-column"><!-- wp:heading {"className":"is-style-heading-underlined"} -->
-                <h2 class="is-style-heading-underlined">CEO</h2>
-                <!-- /wp:heading -->
+                    <!-- wp:heading {"textAlign":"center","level":3} -->
+                    <h3 class="has-text-align-center">Sarah</h3>
+                    <!-- /wp:heading -->
 
-                <!-- wp:paragraph -->
-                <p>Acme Industries</p>
-                <!-- /wp:paragraph -->
+                    <!-- wp:paragraph {"align":"center"} -->
+                    <p class="has-text-align-center">- HR, Acme Industries</p>
+                    <!-- /wp:paragraph -->
 
-                <!-- wp:paragraph -->
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                <!-- /wp:paragraph --></div>
-            <!-- /wp:column --></div>
-        <!-- /wp:columns -->
+                    <!-- wp:paragraph {"align":"center"} -->
+                    <p class="has-text-align-center"><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo</em></p>
+                    <!-- /wp:paragraph --></div>
+                <!-- /wp:column -->
 
-        <!-- wp:paragraph -->
-        <p></p>
-        <!-- /wp:paragraph --></div>
+                <!-- wp:column {"style":{"spacing":{"padding":{"top":"0.75em","right":"0.75em","bottom":"0.75em","left":"0.75em"}}},"backgroundColor":"white","textColor":"black","className":"is-style-column-with-shadow"} -->
+                <div class="wp-block-column is-style-column-with-shadow has-black-color has-white-background-color has-text-color has-background" style="padding-top:0.75em;padding-right:0.75em;padding-bottom:0.75em;padding-left:0.75em"><!-- wp:image {"align":"center","width":150,"height":150,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->
+                    <div class="wp-block-image is-style-rounded"><figure class="aligncenter size-large is-resized"><img src="<?php echo get_theme_file_uri(); ?>/assets/images/pexels-chloe-1043473-square.jpg" alt="" width="150" height="150"/></figure></div>
+                    <!-- /wp:image -->
+
+                    <!-- wp:heading {"textAlign":"center","level":3,"className":"is-style-default"} -->
+                    <h3 class="has-text-align-center is-style-default">Marcus</h3>
+                    <!-- /wp:heading -->
+
+                    <!-- wp:paragraph {"align":"center"} -->
+                    <p class="has-text-align-center">- CEO, Acme Industries</p>
+                    <!-- /wp:paragraph -->
+
+                    <!-- wp:paragraph {"align":"center"} -->
+                    <p class="has-text-align-center"><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo</em></p>
+                    <!-- /wp:paragraph --></div>
+                <!-- /wp:column --></div>
+            <!-- /wp:columns --></div>
+        <!-- /wp:group --></div>
     <!-- /wp:column --></div>
 <!-- /wp:columns -->

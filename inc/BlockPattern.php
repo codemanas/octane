@@ -62,16 +62,6 @@ class BlockPattern {
 				'categories' => ['codemanas-octane']
 			]
 		);
-		
-		register_block_pattern(
-			'codemanas-octane/testimonials-design-1',
-			[
-				'title' => __('Testimonials - Bordered Design','octane'),
-				'descriptions' => _x('Bordered Testimonials Section','Block Pattern description','octane'),
-				'content' => $this->get_pattern_part('testimonials-design-1.php'),
-				'categories' => ['codemanas-octane']
-			]
-		);
 
 		register_block_pattern(
 			'codemanas-octane/bordered-image-with-text',
