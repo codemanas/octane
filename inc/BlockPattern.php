@@ -38,7 +38,17 @@ class BlockPattern {
 			array(
 				'title'       => __( 'Pricing Table', 'octane' ),
 				'description' => _x( 'Pricing table.', 'Block pattern description', 'octane' ),
-				'content'     => $this->get_pattern_part('pricing-table.html'),
+				'content'     => $this->get_pattern_part('pricing-table.php'),
+				'categories'  => [ 'codemanas-octane' ]
+			)
+		);
+
+		register_block_pattern(
+			'codemanas-octane/pricing-table-rounded-border',
+			array(
+				'title'       => __( 'Pricing Table - Rounder Border', 'octane' ),
+				'description' => _x( 'Pricing table with Rounder Borders.', 'Block pattern description', 'octane' ),
+				'content'     => $this->get_pattern_part('pricing-table-rounded-border.php'),
 				'categories'  => [ 'codemanas-octane' ]
 			)
 		);
