@@ -46,6 +46,7 @@ https://search.creativecommons.org/photos/c9c338dc-3bc8-457f-9d3e-55774225321b
 https://www.pexels.com/photo/man-in-blue-dress-shirt-and-black-formal-suit-1043473/
 https://www.pexels.com/photo/man-in-red-jacket-1681010/
 https://www.pexels.com/photo/woman-sitting-and-smiling-1858175/
+https://stocksnap.io/photo/blue-denim-BWPRK5DEF0
 
 == Octane WordPress FSE theme ==
 
