@@ -70,6 +70,42 @@ class Bootstrap {
 
 		// Add support for responsive embedded content.
 		add_theme_support( 'responsive-embeds' );
+
+		$home_page_content = '<style>main h1.wp-block-post-title{ display:none;} </style>';
+		ob_start();
+		require_once get_template_directory().'/block-patterns/home-full-page.php';
+		$home_page_content .= ob_get_clean();
+		// Define and register starter content to showcase the theme on new sites.
+		$starter_content = [
+
+
+			// Specify the core-defined pages to create and add custom thumbnails to some of them.
+			'posts'      => [
+				'home'    => [
+					'post_content' => $home_page_content
+				],
+				'about'   => [
+					'thumbnail' => '{{image-sandwich}}',
+				],
+				'contact' => [
+					'thumbnail' => '{{image-espresso}}',
+				],
+				'blog'    => [
+
+				],
+			],
+
+
+			// Default to a static front page and assign the front and posts pages.
+			'options'    => [
+				'show_on_front'  => 'page',
+				'page_on_front'  => '{{home}}',
+				'page_for_posts' => '{{blog}}',
+			],
+
+			
+		];
+		add_theme_support( 'starter-content', $starter_content );
 	}
 
 	public function load_editor_assets() {
@@ -117,7 +153,7 @@ class Bootstrap {
 	}
 
 	public function set_post_thumbnail_fallback( $html ) {
-		if ( $html == '' && !is_singular() ) {
+		if ( $html == '' && ! is_singular() ) {
 			$html = '<img src="' . esc_url( get_template_directory_uri() . '/assets/images/placeholder.jpg' ) . '" width="400px">';
 		}
 

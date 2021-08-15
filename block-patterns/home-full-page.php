@@ -2,7 +2,7 @@
 <div class="wp-block-group alignfull">
     <!-- wp:group {"align":"full","className":"has-black-color has-spring-wood-background-color has-text-color has-background"} -->
     <div class="wp-block-group alignfull has-black-color has-spring-wood-background-color has-text-color has-background"><!-- wp:heading {"textAlign":"center","textColor":"black"} -->
-        <h2 class="has-text-align-center has-black-color has-text-color">Octane 1 is a Full Side Editing Theme for WordPress, <br>focusing on FSE - designs and Templating.</h2>
+        <h2 class="has-text-align-center has-black-color has-text-color">Octane is a Full Side Editing Theme for WordPress, <br>focusing on FSE - designs and Templating.</h2>
         <!-- /wp:heading -->
 
         <!-- wp:buttons {"contentJustification":"center","align":"wide"} -->
