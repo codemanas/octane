@@ -34,6 +34,17 @@ class BlockPattern {
 	}
 
 	public function register_patterns() {
+
+		register_block_pattern(
+			'codemanas-octane/cta-header-main',
+			[
+				'title' => __('CTA - Main Header'),
+				'descriptions' => _x('Call to Action main header section ','Block Pattern description','octane'),
+				'content' => $this->get_pattern_part('cta-header-main.php'),
+				'categories' => ['codemanas-octane']
+			]
+		);
+		
 		register_block_pattern(
 			'codemanas-octane/pricing-table',
 			array(

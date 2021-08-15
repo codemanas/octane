@@ -1,6 +1,6 @@
-<!-- wp:group {"backgroundColor":"spring-wood","textColor":"black"} -->
-<div class="wp-block-group has-black-color has-spring-wood-background-color has-text-color has-background"><!-- wp:heading {"textAlign":"center","textColor":"black"} -->
-    <h2 class="has-text-align-center has-black-color has-text-color">Octane is a Full Side Editing Theme for WordPress, <br>focusing on FSE - designs and Templating.</h2>
+<!-- wp:group {"align":"full","className":"has-black-color has-spring-wood-background-color has-text-color has-background"} -->
+<div class="wp-block-group alignfull has-black-color has-spring-wood-background-color has-text-color has-background"><!-- wp:heading {"textAlign":"center","textColor":"black"} -->
+    <h2 class="has-text-align-center has-black-color has-text-color">Octane 1 is a Full Side Editing Theme for WordPress, <br>focusing on FSE - designs and Templating.</h2>
     <!-- /wp:heading -->
 
     <!-- wp:buttons {"contentJustification":"center","align":"wide"} -->
@@ -14,7 +14,9 @@
     <!-- /wp:spacer -->
 
     <!-- wp:image {"align":"center","id":272,"sizeSlug":"large","linkDestination":"none"} -->
-    <div class="wp-block-image"><figure class="aligncenter size-large"><img src="<?php echo get_theme_file_uri(); ?>/assets/images/blog-2.jpg" alt="" class="wp-image-272"/></figure></div>
+    <div class="wp-block-image">
+        <figure class="aligncenter size-large"><img src="<?php echo get_theme_file_uri(); ?>/assets/images/blog-2.jpg" alt="" class="wp-image-272"/></figure>
+    </div>
     <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -32,7 +34,9 @@
             <!-- wp:columns -->
             <div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"padding":{"top":"0.75em","right":"0.75em","bottom":"0.75em","left":"0.75em"}}},"backgroundColor":"white","textColor":"black","className":"is-style-column-with-shadow"} -->
                 <div class="wp-block-column is-style-column-with-shadow has-black-color has-white-background-color has-text-color has-background" style="padding-top:0.75em;padding-right:0.75em;padding-bottom:0.75em;padding-left:0.75em"><!-- wp:image {"align":"center","width":150,"height":150,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->
-                    <div class="wp-block-image is-style-rounded"><figure class="aligncenter size-large is-resized"><img src="<?php echo get_theme_file_uri(); ?>/assets/images/pexels-creation-hill-1681010-square.jpg" alt="" width="150" height="150"/></figure></div>
+                    <div class="wp-block-image is-style-rounded">
+                        <figure class="aligncenter size-large is-resized"><img src="<?php echo get_theme_file_uri(); ?>/assets/images/pexels-creation-hill-1681010-square.jpg" alt="" width="150" height="150"/></figure>
+                    </div>
                     <!-- /wp:image -->
 
                     <!-- wp:heading {"textAlign":"center","level":3} -->
@@ -50,7 +54,9 @@
 
                 <!-- wp:column {"style":{"spacing":{"padding":{"top":"0.75em","right":"0.75em","bottom":"0.75em","left":"0.75em"}}},"backgroundColor":"white","textColor":"black","className":"is-style-column-with-shadow"} -->
                 <div class="wp-block-column is-style-column-with-shadow has-black-color has-white-background-color has-text-color has-background" style="padding-top:0.75em;padding-right:0.75em;padding-bottom:0.75em;padding-left:0.75em"><!-- wp:image {"align":"center","width":150,"height":150,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->
-                    <div class="wp-block-image is-style-rounded"><figure class="aligncenter size-large is-resized"><img src="<?php echo get_theme_file_uri(); ?>/assets/images/pexels-guilherme-almeida-1858175-square.jpg" alt="" width="150" height="150"/></figure></div>
+                    <div class="wp-block-image is-style-rounded">
+                        <figure class="aligncenter size-large is-resized"><img src="<?php echo get_theme_file_uri(); ?>/assets/images/pexels-guilherme-almeida-1858175-square.jpg" alt="" width="150" height="150"/></figure>
+                    </div>
                     <!-- /wp:image -->
 
                     <!-- wp:heading {"textAlign":"center","level":3} -->
@@ -68,7 +74,9 @@
 
                 <!-- wp:column {"style":{"spacing":{"padding":{"top":"0.75em","right":"0.75em","bottom":"0.75em","left":"0.75em"}}},"backgroundColor":"white","textColor":"black","className":"is-style-column-with-shadow"} -->
                 <div class="wp-block-column is-style-column-with-shadow has-black-color has-white-background-color has-text-color has-background" style="padding-top:0.75em;padding-right:0.75em;padding-bottom:0.75em;padding-left:0.75em"><!-- wp:image {"align":"center","width":150,"height":150,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->
-                    <div class="wp-block-image is-style-rounded"><figure class="aligncenter size-large is-resized"><img src="<?php echo get_theme_file_uri(); ?>/assets/images/pexels-chloe-1043473-square.jpg" alt="" width="150" height="150"/></figure></div>
+                    <div class="wp-block-image is-style-rounded">
+                        <figure class="aligncenter size-large is-resized"><img src="<?php echo get_theme_file_uri(); ?>/assets/images/pexels-chloe-1043473-square.jpg" alt="" width="150" height="150"/></figure>
+                    </div>
                     <!-- /wp:image -->
 
                     <!-- wp:heading {"textAlign":"center","level":3,"className":"is-style-default"} -->
@@ -154,9 +162,10 @@
     <!-- /wp:columns --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"backgroundColor":"spring-wood","textColor":"black","layout":{"inherit":true}} -->
-<div class="wp-block-group has-black-color has-spring-wood-background-color has-text-color has-background"><!-- wp:spacer {"height":62} -->
-    <div style="height:62px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:group {"align":"full","backgroundColor":"spring-wood","textColor":"black","layout":{"inherit":true}} -->
+<div class="wp-block-group alignfull has-black-color has-spring-wood-background-color has-text-color has-background">
+    <!-- wp:spacer {"height":50} -->
+    <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
 
     <!-- wp:columns {"className":"is-style-no-space-between"} -->
@@ -194,7 +203,11 @@
             <!-- /wp:paragraph -->
 
             <!-- wp:list {"className":"has-secondary-color has-text-color","fontSize":"small"} -->
-            <ul class="has-secondary-color has-text-color has-small-font-size"><li>Member discount and access to all blogs</li><li>Weekly Round up of everything that's happening</li><li><span style="font-family: var(--wp--preset--font-family--work-sans);">Member Access to latest content</span></li></ul>
+            <ul class="has-secondary-color has-text-color has-small-font-size">
+                <li>Member discount and access to all blogs</li>
+                <li>Weekly Round up of everything that's happening</li>
+                <li><span style="font-family: var(--wp--preset--font-family--work-sans);">Member Access to latest content</span></li>
+            </ul>
             <!-- /wp:list -->
 
             <!-- wp:buttons -->
@@ -214,7 +227,11 @@
             <!-- /wp:paragraph -->
 
             <!-- wp:list {"textColor":"white","className":"has-secondary-color","fontSize":"small"} -->
-            <ul class="has-secondary-color has-white-color has-text-color has-small-font-size"><li>Member discount and access to all blogs</li><li>Weekly Round up of everything that's happening</li><li><span style="font-family: var(--wp--preset--font-family--work-sans);">Member Access to latest content</span></li></ul>
+            <ul class="has-secondary-color has-white-color has-text-color has-small-font-size">
+                <li>Member discount and access to all blogs</li>
+                <li>Weekly Round up of everything that's happening</li>
+                <li><span style="font-family: var(--wp--preset--font-family--work-sans);">Member Access to latest content</span></li>
+            </ul>
             <!-- /wp:list -->
 
             <!-- wp:buttons -->
@@ -234,7 +251,11 @@
             <!-- /wp:paragraph -->
 
             <!-- wp:list {"className":"has-secondary-color has-text-color","fontSize":"small"} -->
-            <ul class="has-secondary-color has-text-color has-small-font-size"><li>Member discount and access to all blogs</li><li>Weekly Round up of everything that's happening</li><li><span style="font-family: var(--wp--preset--font-family--work-sans);">Member Access to latest content</span></li></ul>
+            <ul class="has-secondary-color has-text-color has-small-font-size">
+                <li>Member discount and access to all blogs</li>
+                <li>Weekly Round up of everything that's happening</li>
+                <li><span style="font-family: var(--wp--preset--font-family--work-sans);">Member Access to latest content</span></li>
+            </ul>
             <!-- /wp:list -->
 
             <!-- wp:buttons -->
@@ -252,7 +273,7 @@
                 <h2 class="has-text-align-center has-white-color has-text-color">Didn't - find what you're looking for ?</h2>
                 <!-- /wp:heading -->
 
-                <!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Try a search","width":50,"widthUnit":"%","buttonText":"Search","buttonPosition":"button-inside","buttonUseIcon":true,"align":"center"} /-->
+                <!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Try searching for it","width":50,"widthUnit":"%","buttonText":"Search","buttonPosition":"button-inside","buttonUseIcon":true,"align":"center"} /-->
 
                 <!-- wp:spacer {"height":30} -->
                 <div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
