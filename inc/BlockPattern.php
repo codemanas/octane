@@ -14,6 +14,7 @@ class BlockPattern {
 		$this->directory = get_theme_file_path();
 		$this->register_pattern_categories();
 		add_action( 'init', [ $this, 'register_patterns' ] );
+		add_action( 'init', [ $this, 'register_full_page_patterns' ] );
 	}
 
 	/**
@@ -102,12 +103,41 @@ class BlockPattern {
 				'categories' => ['codemanas-octane']
 			]
 		);
+
+		register_block_pattern(
+			'codemanas-octane/cta-with-search-form',
+			[
+				'title' => __('CTA - Search Form'),
+				'descriptions' => _x('Call to Action with Search Form','Block Pattern description','octane'),
+				'content' => $this->get_pattern_part('cta-search-form.php'),
+				'categories' => ['codemanas-octane']
+			]
+		);
+		
+		
+	}
+	
+	public function register_full_page_patterns(){
+		register_block_pattern(
+			'codemanas-octane-full-page-layouts/home-page-1',
+			array(
+				'title'       => __( 'Home Page - Design 1', 'octane' ),
+				'description' => _x( 'Home Page Design 1', 'Block pattern description', 'octane' ),
+				'content'     => $this->get_pattern_part('home-full-page.php'),
+				'categories'  => [ 'codemanas-octane-full-page-layouts' ]
+			)
+		);
 	}
 
 	public function register_pattern_categories() {
 		register_block_pattern_category(
 			'codemanas-octane',
 			[ 'label' => __( 'Codemanas', 'octane' ) ]
+		);
+		
+		register_block_pattern_category(
+			'codemanas-octane-full-page-layouts',
+			[ 'label' => __( 'Codemanas - Full Page Layouts', 'octane' ) ]
 		);
 	}
 	
