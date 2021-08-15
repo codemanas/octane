@@ -13,7 +13,11 @@
   "customTemplates": [
     {
       "name": "blank-canvas",
-      "title": "Blank Canvas - good for flash pages - without header footer - paint what you want"
+      "title": "Blank Canvas - good for flash pages - without header footer - paint what you want",
+    },
+    {
+      "name": "page-no-title",
+      "title": "Page with No Title"
     }
   ],
   "settings": {
