@@ -23,10 +23,10 @@ class BlockPattern {
 	 * @param $template_file
 	 */
 	public function get_pattern_part( $template_file ) {
-		$content = '';
+		$content = 'Pattern Not Found';
 		if ( file_exists( $this->directory . '/block-patterns/' . esc_html( $template_file ) ) ) {
 			ob_start();
-			require_once $this->directory . '/block-patterns/' . esc_html( $template_file );
+			include $this->directory . '/block-patterns/' . esc_html( $template_file );
 			$content = ob_get_clean();
 		}
 

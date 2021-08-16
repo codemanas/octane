@@ -10,8 +10,8 @@
             <!-- /wp:paragraph -->
 
             <!-- wp:columns -->
-            <div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"padding":{"top":"0.75em","right":"0.75em","bottom":"0.75em","left":"0.75em"}}},"backgroundColor":"white","textColor":"black","className":"is-style-column-with-shadow"} -->
-                <div class="wp-block-column is-style-column-with-shadow has-black-color has-white-background-color has-text-color has-background" style="padding-top:0.75em;padding-right:0.75em;padding-bottom:0.75em;padding-left:0.75em"><!-- wp:image {"align":"center","width":150,"height":150,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->
+            <div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"padding":{"top":"1.75em","right":"0.75em","bottom":"1.75em","left":"0.75em"}}},"backgroundColor":"white","textColor":"black","className":"is-style-column-with-shadow"} -->
+                <div class="wp-block-column is-style-column-with-shadow has-black-color has-white-background-color has-text-color has-background" style="padding-top:1.75em;padding-right:0.75em;padding-bottom:1.75em;padding-left:0.75em"><!-- wp:image {"align":"center","width":150,"height":150,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->
                     <div class="wp-block-image is-style-rounded"><figure class="aligncenter size-large is-resized"><img src="<?php echo get_theme_file_uri(); ?>/assets/images/pexels-creation-hill-1681010-square.jpg" alt="" width="150" height="150"/></figure></div>
                     <!-- /wp:image -->
 
@@ -28,8 +28,8 @@
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:column -->
 
-                <!-- wp:column {"style":{"spacing":{"padding":{"top":"0.75em","right":"0.75em","bottom":"0.75em","left":"0.75em"}}},"backgroundColor":"white","textColor":"black","className":"is-style-column-with-shadow"} -->
-                <div class="wp-block-column is-style-column-with-shadow has-black-color has-white-background-color has-text-color has-background" style="padding-top:0.75em;padding-right:0.75em;padding-bottom:0.75em;padding-left:0.75em"><!-- wp:image {"align":"center","width":150,"height":150,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->
+                <!-- wp:column {"style":{"spacing":{"padding":{"top":"1.75em","right":"0.75em","bottom":"1.75em","left":"0.75em"}}},"backgroundColor":"white","textColor":"black","className":"is-style-column-with-shadow"} -->
+                <div class="wp-block-column is-style-column-with-shadow has-black-color has-white-background-color has-text-color has-background" style="padding-top:1.75em;padding-right:0.75em;padding-bottom:1.75em;padding-left:0.75em"><!-- wp:image {"align":"center","width":150,"height":150,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->
                     <div class="wp-block-image is-style-rounded"><figure class="aligncenter size-large is-resized"><img src="<?php echo get_theme_file_uri(); ?>/assets/images/pexels-guilherme-almeida-1858175-square.jpg" alt="" width="150" height="150"/></figure></div>
                     <!-- /wp:image -->
 
@@ -46,8 +46,8 @@
                     <!-- /wp:paragraph --></div>
                 <!-- /wp:column -->
 
-                <!-- wp:column {"style":{"spacing":{"padding":{"top":"0.75em","right":"0.75em","bottom":"0.75em","left":"0.75em"}}},"backgroundColor":"white","textColor":"black","className":"is-style-column-with-shadow"} -->
-                <div class="wp-block-column is-style-column-with-shadow has-black-color has-white-background-color has-text-color has-background" style="padding-top:0.75em;padding-right:0.75em;padding-bottom:0.75em;padding-left:0.75em"><!-- wp:image {"align":"center","width":150,"height":150,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->
+                <!-- wp:column {"style":{"spacing":{"padding":{"top":"1.75em","right":"0.75em","bottom":"1.75em","left":"0.75em"}}},"backgroundColor":"white","textColor":"black","className":"is-style-column-with-shadow"} -->
+                <div class="wp-block-column is-style-column-with-shadow has-black-color has-white-background-color has-text-color has-background" style="padding-top:1.75em;padding-right:0.75em;padding-bottom:1.75em;padding-left:0.75em"><!-- wp:image {"align":"center","width":150,"height":150,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->
                     <div class="wp-block-image is-style-rounded"><figure class="aligncenter size-large is-resized"><img src="<?php echo get_theme_file_uri(); ?>/assets/images/pexels-chloe-1043473-square.jpg" alt="" width="150" height="150"/></figure></div>
                     <!-- /wp:image -->
 
