@@ -38,7 +38,7 @@ class BlockPattern {
 		register_block_pattern(
 			'codemanas-octane/cta-header-main',
 			[
-				'title' => __('CTA - Main Header'),
+				'title' => __('CTA - Main Header', 'octane'),
 				'descriptions' => _x('Call to Action main header section ','Block Pattern description','octane'),
 				'content' => $this->get_pattern_part('cta-header-main.php'),
 				'categories' => ['codemanas-octane']
@@ -98,7 +98,7 @@ class BlockPattern {
 		register_block_pattern(
 			'codemanas-octane/two-columns-full-width-background',
 			[
-				'title' => __('Two Columns with full width background '),
+				'title' => __('Two Columns with full width background ', 'octane'),
 				'descriptions' => _x('Two Columns with full width background','Block Pattern description','octane'),
 				'content' => $this->get_pattern_part('two-columns-with-full-width-background.php'),
 				'categories' => ['codemanas-octane']
@@ -108,7 +108,7 @@ class BlockPattern {
 		register_block_pattern(
 			'codemanas-octane/teams',
 			[
-				'title' => __('Teams'),
+				'title' => __('Teams', 'octane'),
 				'descriptions' => _x('Team Section','Block Pattern description','octane'),
 				'content' => $this->get_pattern_part('team.php'),
 				'categories' => ['codemanas-octane']
@@ -118,7 +118,7 @@ class BlockPattern {
 		register_block_pattern(
 			'codemanas-octane/cta-with-search-form',
 			[
-				'title' => __('CTA - Search Form'),
+				'title' => __('CTA - Search Form', 'octane'),
 				'descriptions' => _x('Call to Action with Search Form','Block Pattern description','octane'),
 				'content' => $this->get_pattern_part('cta-search-form.php'),
 				'categories' => ['codemanas-octane']

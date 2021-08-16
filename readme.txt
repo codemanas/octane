@@ -48,6 +48,8 @@ https://www.pexels.com/photo/man-in-red-jacket-1681010/
 https://www.pexels.com/photo/woman-sitting-and-smiling-1858175/
 https://stocksnap.io/photo/blue-denim-BWPRK5DEF0
 
+map.png This image is licensed under GPL.
+
 == Octane WordPress FSE theme ==
 
 Welcome to the Octane theme for WordPress on GitHub. Here you can browse the source, and keep track of development. 
