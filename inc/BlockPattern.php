@@ -86,11 +86,11 @@ class BlockPattern {
 		);
 
 		register_block_pattern(
-			'codemanas-octane/bordered-image-with-text',
+			'codemanas-octane/two-column-image-with-text',
 			[
-				'title' => __('Border Image & Text Columns','octane'),
-				'descriptions' => _x('Bordered Image & Text','Block Pattern description','octane'),
-				'content' => $this->get_pattern_part('bordered-image-with-text.php'),
+				'title' => __('Intro section Image and Text Columns','octane'),
+				'descriptions' => _x('Intro section Image and Text ','Block Pattern description','octane'),
+				'content' => $this->get_pattern_part('image-with-text.php'),
 				'categories' => ['codemanas-octane']
 			]
 		);
@@ -134,7 +134,17 @@ class BlockPattern {
 			array(
 				'title'       => __( 'Home Page - Design 1', 'octane' ),
 				'description' => _x( 'Home Page Design 1', 'Block pattern description', 'octane' ),
-				'content'     => $this->get_pattern_part('home-full-page.php'),
+				'content'     => $this->get_pattern_part('full-page/home-page.php'),
+				'categories'  => [ 'codemanas-octane-full-page-layouts' ]
+			)
+		);
+
+		register_block_pattern(
+			'codemanas-octane-full-page-layouts/contact',
+			array(
+				'title'       => __( 'Contact', 'octane' ),
+				'description' => _x( 'Contact Us - layout', 'Block pattern description', 'octane' ),
+				'content'     => $this->get_pattern_part('full-page/contact.php'),
 				'categories'  => [ 'codemanas-octane-full-page-layouts' ]
 			)
 		);

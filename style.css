@@ -55,7 +55,7 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6 {
     font-size: 2em;
     font-family: var(--wp--preset--font-family--quicksand);
     margin: 0 0 1rem 0;
@@ -372,6 +372,7 @@ Layout
  */
 * {
     box-sizing: border-box;
+    clear:both;
 }
 
 .wp-block-social-links {
@@ -395,25 +396,33 @@ iframe {
     border-radius: 2rem;
 }
 
+/**Logic here is you don't want a gap if we have a full page layout*/
+/** Same goes for columns withing block groups */
+.wp-block-group > .wp-block-columns:last-child,
+.wp-block-columns.alignfull{
+    margin-bottom: 0;
+}
+
 /* Header  */
 .wp-site-blocks .site-header {
     padding: 0;
 }
 
-.wp-site-blocks .site-header .is-style-header-sticky{
+.wp-site-blocks .site-header .is-style-header-sticky {
     position: fixed;
     width: 100%;
     z-index: 10;
-    top:0;
+    top: 0;
 }
+
 @media screen and (min-width: 768px) {
-    body.logged-in .wp-site-blocks .site-header .is-style-header-sticky{
+    body.logged-in .wp-site-blocks .site-header .is-style-header-sticky {
         top: 32px;
     }
 }
 
 @media screen and (max-width: 968px) {
-    .wp-site-blocks > * {
+    .wp-block-query {
         padding: 1.25em;
     }
 
@@ -423,6 +432,14 @@ iframe {
 
     .wp-site-blocks .site-footer {
         padding: 0;
+    }
+    
+    .wp-block-column{
+        margin-bottom: 1.5em;
+    }
+    
+    .wp-block-columns > .wp-block-column:last-of-type{
+        margin-bottom: 0;
     }
 }
 
@@ -595,15 +612,16 @@ select {
 }
 
 /*Search Button*/
-.wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__input{
+.wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__input {
     padding: 1em;
 }
 
-.wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__button{
-    margin:0;
+.wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__button {
+    margin: 0;
 }
-.wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper{
-    border:0;   
+
+.wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper {
+    border: 0;
 }
 
 input[type="text"]:focus,
@@ -654,6 +672,7 @@ p {
     margin-top: 0;
     margin-bottom: 1rem;
 }
+
 .is-style-heading-underlined {
     border-bottom: 1px solid;
 }
@@ -723,7 +742,7 @@ figure.is-style-highlighted-frame:after {
     figure.is-style-highlighted-frame:before,
     .is-style-highlighted-frame figure:after,
     figure.is-style-highlighted-frame:after {
-       border: none;
+        border: none;
     }
 }
 
@@ -731,9 +750,7 @@ figure.is-style-highlighted-frame:after {
 /*.wp-block-group.octane-testimonials{*/
 /*    padding: 2em 2.375em;*/
 /*}*/
-.octane-testimonials .wp-block-columns{
-    margin-bottom:0;
-}
-.octane-testimonials .wp-block-image{
-    margin-bottom:0;
+
+.octane-testimonials .wp-block-image {
+    margin-bottom: 0;
 }
