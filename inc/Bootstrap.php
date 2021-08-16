@@ -120,7 +120,7 @@ class Bootstrap {
 
 			
 		];
-		add_theme_support( 'starter-content', $starter_content );
+		// add_theme_support( 'starter-content', $starter_content );
 	}
 
 	public function load_editor_assets() {

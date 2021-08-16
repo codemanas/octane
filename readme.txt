@@ -3,7 +3,7 @@ Contributors: codemanas
 Requires at least: 5.6
 Tested up to: 5.8
 Requires PHP: 5.6
-Stable tag: 1.0.9
+Stable tag: 1.1.0
 License: GPL-2.0-or-later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,6 +22,20 @@ This theme is beta software, and is not meant for use on a production site.
 3. Unzip the resulting download.
 4. Move or upload the folder into your site's `wp-content/themes` folder.
 5. Visit `Appearance > Themes` and activate the "Octane" theme.
+
+== Changelog ==
+
+= 1.1.0 =
+* Remove starter content: doesn't work for FSE
+
+= 1.0.9 =
+* Released: April 14, 2021
+* Added full page and custom patterns for FSE
+* Updated screenshot
+* Experimental starter content for FSE
+
+= 1.0.8 =
+* Released: Aug 10, 2021
 
 == Copyright ==
 
