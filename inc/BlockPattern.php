@@ -148,6 +148,16 @@ class BlockPattern {
 				'categories'  => [ 'codemanas-octane-full-page-layouts' ]
 			)
 		);
+
+		register_block_pattern(
+			'codemanas-octane-full-page-layouts/about',
+			array(
+				'title'       => __( 'About', 'octane' ),
+				'description' => _x( 'Full Page About', 'Block pattern description', 'octane' ),
+				'content'     => $this->get_pattern_part('full-page/about.php'),
+				'categories'  => [ 'codemanas-octane-full-page-layouts' ]
+			)
+		);
 	}
 
 	public function register_pattern_categories() {

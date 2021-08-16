@@ -102,14 +102,12 @@ class Bootstrap {
 					'post_content' => '<style>main h1.wp-block-post-title{ display:none;} </style>'.$this->get_pattern_part('full-page/home-page.php')
 				],
 				'about'   => [
-					'thumbnail' => '{{image-sandwich}}',
+					'post_content' => $this->get_pattern_part('full-page/about.php')
 				],
 				'contact' => [
-					'post_content' => $this->get_pattern_part('full-page/home-page.php')
+					'post_content' => $this->get_pattern_part('full-page/contact.php')
 				],
-				'blog'    => [
-
-				],
+				'blog'    => [],
 			],
 
 
