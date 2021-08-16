@@ -4,6 +4,10 @@ namespace Codemanas\Themes\Octane;
 
 class Bootstrap {
 	public static $instance = null;
+	/**
+	 * @var string
+	 */
+	private $directory = '';
 
 	/**
 	 * @return Bootstrap|null
@@ -13,6 +17,8 @@ class Bootstrap {
 	}
 
 	public function __construct() {
+		$this->directory = get_theme_file_path();
+
 		add_action( 'after_setup_theme', [ $this, 'theme_setup' ] );
 		add_action( 'wp_loaded', [ $this, 'register_styles' ] );
 
@@ -28,6 +34,22 @@ class Bootstrap {
 		//Display fallback image in case - post does not have featured image
 		add_filter( 'post_thumbnail_html', [ $this, 'set_post_thumbnail_fallback' ] );
 		$this->load_modules();
+	}
+
+	/**
+	 * Function to get pattern html
+	 *
+	 * @param $template_file
+	 */
+	public function get_pattern_part( $template_file ) {
+		$content = 'Pattern Not Found';
+		if ( file_exists( $this->directory . '/block-patterns/' . esc_html( $template_file ) ) ) {
+			ob_start();
+			include $this->directory . '/block-patterns/' . esc_html( $template_file );
+			$content = ob_get_clean();
+		}
+
+		return $content;
 	}
 
 	public function load_modules() {
@@ -70,6 +92,35 @@ class Bootstrap {
 
 		// Add support for responsive embedded content.
 		add_theme_support( 'responsive-embeds' );
+		// Define and register starter content to showcase the theme on new sites.
+		$starter_content = [
+
+
+			// Specify the core-defined pages to create and add custom thumbnails to some of them.
+			'posts'      => [
+				'home'    => [
+					'post_content' => '<style>main h1.wp-block-post-title{ display:none;} </style>'.$this->get_pattern_part('full-page/home-page.php')
+				],
+				'about'   => [
+					'post_content' => $this->get_pattern_part('full-page/about.php')
+				],
+				'contact' => [
+					'post_content' => $this->get_pattern_part('full-page/contact.php')
+				],
+				'blog'    => [],
+			],
+
+
+			// Default to a static front page and assign the front and posts pages.
+			'options'    => [
+				'show_on_front'  => 'page',
+				'page_on_front'  => '{{home}}',
+				'page_for_posts' => '{{blog}}',
+			],
+
+			
+		];
+		add_theme_support( 'starter-content', $starter_content );
 	}
 
 	public function load_editor_assets() {
@@ -117,7 +168,7 @@ class Bootstrap {
 	}
 
 	public function set_post_thumbnail_fallback( $html ) {
-		if ( $html == '' && !is_singular() ) {
+		if ( $html == '' && ! is_singular() ) {
 			$html = '<img src="' . esc_url( get_template_directory_uri() . '/assets/images/placeholder.jpg' ) . '" width="400px">';
 		}
 

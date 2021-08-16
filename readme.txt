@@ -42,6 +42,11 @@ Images:
 https://github.com/woocommerce/woocommerce/blob/trunk/assets/images/placeholder.png
 https://search.creativecommons.org/photos/76a5129d-f706-4ff7-aec2-fb9946ac6619
 https://search.creativecommons.org/photos/b3784c3b-27e2-4346-be3c-3c4b39df6314
+https://search.creativecommons.org/photos/c9c338dc-3bc8-457f-9d3e-55774225321b
+https://www.pexels.com/photo/man-in-blue-dress-shirt-and-black-formal-suit-1043473/
+https://www.pexels.com/photo/man-in-red-jacket-1681010/
+https://www.pexels.com/photo/woman-sitting-and-smiling-1858175/
+https://stocksnap.io/photo/blue-denim-BWPRK5DEF0
 
 == Octane WordPress FSE theme ==
 

@@ -14,6 +14,10 @@
     {
       "name": "blank-canvas",
       "title": "Blank Canvas - good for flash pages - without header footer - paint what you want"
+    },
+    {
+      "name": "page-no-title",
+      "title": "Page with no title"
     }
   ],
   "settings": {
@@ -40,6 +44,11 @@
           "color": "#ffffff"
         },
         {
+          "name": "Science Blue",
+          "slug": "science-blue",
+          "color": "#006DD0"
+        },
+        {
           "name": "Spring Wood",
           "slug": "spring-wood",
           "color": "#f5f0ed"
@@ -58,6 +67,30 @@
           "name": "Mystic",
           "slug": "mystic",
           "color": "#EAEFF3"
+        },
+        {
+          "name": "Dull Lavender",
+          "slug": "dull-lavender",
+          "color": "#96AEE6"
+        },{
+          "name": "Cerulean",
+          "slug": "cerulean",
+          "color": "#00a1dd"
+        },
+        {
+          "name": "Fuchsia Blue",
+          "slug": "fuchsia-blue",
+          "color": "#8249C8"
+        }
+      ],
+      "gradients": [
+        {
+          "name": "Light Purlple to Dark Purple",
+          "gradient": "linear-gradient(145deg,#c86dd7 0,#8249c8 100%)"
+        },
+        {
+          "name": "Light Blue to Dark Blue",
+          "gradient": "linear-gradient(145deg,#00a1dd 0,#005ad6 100%)"
         }
       ]
     },

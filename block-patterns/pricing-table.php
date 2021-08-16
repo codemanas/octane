@@ -1,3 +1,5 @@
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"1.75em","bottom":"1.75em"}}},"layout":{"inherit":true}} -->
+<div class="wp-block-group alignfull" style="padding-top:1.75em;padding-bottom:1.75em">
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
     <div class="wp-block-column"><!-- wp:cover -->
@@ -89,3 +91,5 @@
         <!-- /wp:cover --></div>
     <!-- /wp:column --></div>
 <!-- /wp:columns -->
+</div>
+<!-- /wp:group -->

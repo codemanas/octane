@@ -11,7 +11,6 @@ class BlockStyles {
 
 	public function __construct() {
 		$this->register_styles();
-		add_filter( 'render_block', [ $this, 'fancy_image_border' ], 10, 2 );
 	}
 
 	private function register_styles() {
@@ -85,16 +84,6 @@ class BlockStyles {
 				'is_default' => false,
 			]
 		);
-	}
-
-	public function fancy_image_border( $block_content, $block ) {
-		if ( 'core/image' === $block['blockName'] ) {
-			if ( strpos( $block['attrs']['className'], 'is-style-highlighted-frame' ) !== false ) {
-				$block_content = str_replace( '</figure>', '<span class="border"></span><span class="border"></span><span class="border"></span></figure>', $block_content );
-			}
-		}
-
-		return $block_content;
 	}
 
 }
