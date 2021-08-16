@@ -73,7 +73,7 @@ class Bootstrap {
 
 		$home_page_content = '<style>main h1.wp-block-post-title{ display:none;} </style>';
 		ob_start();
-		require_once get_template_directory().'/block-patterns/home-full-page.php';
+		include get_template_directory().'/block-patterns/home-full-page.php';
 		$home_page_content .= ob_get_clean();
 		// Define and register starter content to showcase the theme on new sites.
 		$starter_content = [
