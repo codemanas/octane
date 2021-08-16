@@ -86,10 +86,12 @@
       "gradients": [
         {
           "name": "Light Purlple to Dark Purple",
+          "slug": "light-purple-dark-purple",
           "gradient": "linear-gradient(145deg,#c86dd7 0,#8249c8 100%)"
         },
         {
           "name": "Light Blue to Dark Blue",
+          "slug": "light-blue-dark-blue",
           "gradient": "linear-gradient(145deg,#00a1dd 0,#005ad6 100%)"
         }
       ]

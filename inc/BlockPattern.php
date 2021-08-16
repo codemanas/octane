@@ -163,12 +163,12 @@ class BlockPattern {
 	public function register_pattern_categories() {
 		register_block_pattern_category(
 			'codemanas-octane',
-			[ 'label' => __( 'Codemanas', 'octane' ) ]
+			[ 'label' => __( 'Octane', 'octane' ) ]
 		);
 		
 		register_block_pattern_category(
 			'codemanas-octane-full-page-layouts',
-			[ 'label' => __( 'Codemanas - Full Page Layouts', 'octane' ) ]
+			[ 'label' => __( 'Octane - Full Page Layouts', 'octane' ) ]
 		);
 	}
 	
