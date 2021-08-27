@@ -3,7 +3,7 @@ Contributors: codemanas
 Requires at least: 5.6
 Tested up to: 5.8
 Requires PHP: 5.6
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPL-2.0-or-later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,6 +24,10 @@ This theme is beta software, and is not meant for use on a production site.
 5. Visit `Appearance > Themes` and activate the "Octane" theme.
 
 == Changelog ==
+
+= 1.1.1 =
+* Change featured image size.
+* Add link to title in blog listing page.
 
 = 1.1.0 =
 * Remove starter content: doesn't work for FSE
