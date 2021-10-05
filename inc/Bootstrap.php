@@ -42,7 +42,7 @@ class Bootstrap {
 	 * @param $template_file
 	 */
 	public function get_pattern_part( $template_file ) {
-		$content = 'Pattern Not Found';
+		$content = esc_html__('Pattern Not Found','octane');
 		if ( file_exists( $this->directory . '/block-patterns/' . esc_html( $template_file ) ) ) {
 			ob_start();
 			include $this->directory . '/block-patterns/' . esc_html( $template_file );
